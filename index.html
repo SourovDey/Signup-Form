@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="containar">
+        <div class="in-container">
+            <div class="header">
+                <div class="heading">
+                    <h1>Signup Form</h1>
+                </div>
+                <div class="progress-var">
+                    <div class="progress-containar">
+                        <div class="progress-head">
+                            <span>Name</span>
+                            <span>Contact</span>
+                            <span>Birth</span>
+                            <span>Submit</span>
+                        </div>
+                        <div class="progress-check">
+                            <div class="onecheck"><span>1</span></div>
+                            <div class="line"></div>
+                            <div class="twocheck"><span>2</span></div>
+                            <div class="line"></div>
+                            <div class="threecheck"><span>3</span></div>
+                            <div class="line"></div>
+                            <div class="fourcheck"><span>4</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="information">
+                <div class="information-containar">
+                    <div class="basic-info card" id="demo">
+                        <h5>Basic Info:</h5>
+                        <label for="">First Name</label>
+                        <input type="text">
+                        <label for="">Last Name</label>
+                        <input type="text">
+                        <button class="next-btn-1" onclick="myFunction()">NEXT</button>
+                    </div>
+                    <div class="contact-info card" id="contact">
+                        <h5>Contact Info:</h5>
+                        <label for="">Email Address</label>
+                        <input type="email">
+                        <label for="">Phone Number</label>
+                        <input type="number">
+                        <button class="next-btn-2 Previous">PREVIOUS</button>
+                        <button class="next-btn-2">NEXT</button>
+                    </div>
+                    <div class="date-of-birth-info card">
+                        <h5>Date of Birth:</h5>
+                        <label for="">Date</label>
+                        <input type="date" class="date">
+                        <label for="">Gender</label>
+                        <select name="" id="" class="gender">
+                            <option value="male">Male</option>
+                            <option value="male">Female</option>
+                            <option value="male">Others</option>
+                        </select>
+                        <button class="next-btn-2 Previous">PREVIOUS</button>
+                        <button class="next-btn-2">NEXT</button>
+                    </div>
+                    <div class="login-info card">
+                        <h5>Login Info:</h5>
+                        <label for="">User Name</label>
+                        <input type="text">
+                        <label for="">Password</label>
+                        <input type="password">
+                        <button class="next-btn-2 Previous">PREVIOUS</button>
+                        <button class="next-btn-2 submit">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/all.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/signup.js"></script>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = contact;
+        }
+    </script>
+</body>
+</html>
